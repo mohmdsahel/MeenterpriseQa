@@ -30,7 +30,7 @@ const Collaboration = () => {
     
     <div >
       <ul className="flex flex-row flex-wrap justify-center gap-4 
-        sm:gap-6">
+        sm:gap-28">
         {seriesPartners.map((item, index) => (
           <li
             key={index}
@@ -55,7 +55,7 @@ const Collaboration = () => {
  
 
  
-   <div className="mt-8">
+   {/* <div className="mt-8">
      <h4 className="text-sm sm:text-base text-center tagline font-extrabold text-white mb-6">
        Exhibiting Partners
      </h4>
@@ -76,7 +76,7 @@ const Collaboration = () => {
          </li>
        ))}
      </ul>
-   </div>
+   </div> */}
     </div>
   </div>
 </div>

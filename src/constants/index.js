@@ -37,6 +37,25 @@ import {
   linkedin,
  
   speakerdemo,
+  speaker1,
+  series1,
+  series2,
+  series3,
+  series4,
+  series5,
+  series6,
+  series7,
+  series8,
+  series9,
+  series10,
+  series11,
+  series12,
+  series13,
+  series14,
+  series15,
+  series16,
+  series17,
+  partner2,
 } from "../assets";
 
 export const navigation = [
@@ -75,41 +94,31 @@ export const navigation = [
 ];
 
 export const seriesPartners = [
-  {
-    icon: partner1,
-    name: "Enterprise AI Partner",
-  },
+ 
   {
     icon: partner1,
     name: "Everyday AI Partner",
   },
   {
-    icon: partner1,
-    name: "Data Modernization Partner",
+    icon: partner2,
+    name: "DATA MANAGEMENT PARTNER",
   },
-  {
-    icon: partner1,
-    name: "Premium Bronze Partner",
-  },
-  {
-    icon: partner1,
-    name: "Networking Partner",
-  },
+  
 ];
 
 export const exhibitingPartners = [
-  {
-    icon: partner1,
-  },
-  {
-    icon: partner1,
-  },
-  {
-    icon: partner1,
-  },
-  {
-    icon: partner1,
-  },
+  // {
+  //   icon: partner1,
+  // },
+  // {
+  //   icon: partner1,
+  // },
+  // {
+  //   icon: partner1,
+  // },
+  // {
+  //   icon: partner1,
+  // },
 ];
 
 export const forTheseIndustries = [
@@ -367,138 +376,120 @@ export const contact = [
 export const benefits = [
   {
     id: "0",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "Abdul kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
+    title: "NIKITA GORDEEV",
+    text: " Chief Technology Officer",
+    organization: "Snoonu",
+    link: "https://www.linkedin.com/in/nmgordeev/",
+    imageUrl: speaker1,
   },
-  {
-    id: "1",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
-  {
-    id: "2",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
-  {
-    id: "3",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
-  {
-    id: "4",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
-  {
-    id: "5",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
-  {
-    id: "6",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: "kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
-  {
-    id: "7",
-    title: "demo",
-    text: "Chief  ygkhgk",
-    organization: " kghgkh",
-    link: "https://www.linkedin.com/",
-    imageUrl: speakerdemo,
-  },
+ 
 ];
 
 export const testimonials = [
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img: series1,
+    name: "ASSIM KHAN",
+    title: "Chief Information Officer",
+    role: "Apex Health",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series2,
+    name: "DR. TONY FARES ",
+    title: "Technology Director",
+    role: "Hamad Bin Khalifa University, Qatar Foundation",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series3,
+    name: "AHMED SERAG  ",
+    title: "ounder & Director AI Innovation Lab",
+    role: "Weill Cornell Medicine",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series4,
+    name: "AHMED KHALIL ABDULLA",
+    title: "Director of IT Department",
+    role: "Ministry of Social Development & Family",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series5,
+    name: "DR. JASSIM ALMULLA",
+    title: "information Technology Director",
+    role: "Qatar Football Association",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series6,
+    name: "PERTTU KORHONEN ",
+    title: "Director – Financial Analysis & Innovation ",
+    role: "Qatar Financial Centre Regulatory Authority (QFCRA)",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img: series7,
+    name: "CANER CANAK ",
+    title: "Group Director Data, Analytics & AI",
+    role: "Ooredoo Group",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series8,
+    name: "DR. FETHI FILALI",
+    title: "Director of Technology & Research (CTO)",
+    role: "Qatar Mobility Innovations Center (QMIC)",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series9,
+    name: "HARI SIVAN",
+    title: "Executive Director of Digital & Innovations",
+    role: "Qatar Development Bank",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series10,
+    name: "DR. MOURAD OUZZANI",
+    title: " Research Director, Data Management & Analytics ",
+    role: " Qatar Computing Research Institute, HBKU",
   },
   {
-    img: speakerdemo,
-    title: "demo",
-    name: "gewfg sdggh4ww",
-    role: "wtyw wteryrwu",
+    img:  series11,
+    name: "DANIEL PATTERSON",
+    title: " Data Protection Commissioner",
+    role: " Qatar Financial Centre (QFC) Authority",
   },
-
+  {
+    img:  series12,
+    name: "DR. ALI AL SANOUSI",
+    title: "Executive Director, Clinical Information Systems",
+    role: "amad Medical Corporation",
+  },
+  {
+    img: series13,
+    name: "DR. S BHASKER ",
+    title: " CIO (Executive Director)",
+    role: "Sidra Medicine",
+  },
+ 
+  {
+    img:  series14,
+    name: "MATTHEW CHRISP",
+    title: " Group Director Analytics & Research",
+    role: " beIN Media Group",
+  },
+  {
+    img:  series15,
+    name: "WASEEM AHMED",
+    title: "Director of Information Technology",
+    role: " Stralink ME",
+  },
+  {
+    img:  series16,
+    name: "DAAD ILAMDIN",
+    title: " Associate Director of Business Intelligence",
+    role: "Snoonu",
+  },
+  {
+    img:  series17,
+    name: "OHN MANKARIOS ",
+    title: " Vice President - IT",
+    role: "QInvest LLC",
+  },
+ 
 ];
 
 export const socials = [

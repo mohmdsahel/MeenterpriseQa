@@ -27,7 +27,7 @@ const Hero = () => {
           className="absolute w-full h-full object-cover"
           alt="hero"
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/80" />
       </div>
 
       <div className="container relative px-4 sm:px-6 flex flex-col justify-between h-full">

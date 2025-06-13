@@ -81,16 +81,20 @@ export const SeriesCard = ({
         )}
         style={{
           animation: start ? `scroll var(--animation-duration) forwards linear infinite` : "none",
-          animationPlayState: pauseOnHover ? "running" : "paused",
-          transform: "translateX(0)",
+          // Animation runs if start is true, paused otherwise
+          animationPlayState: start ? "running" : "paused",
         }}
-        whileHover={{ animationPlayState: pauseOnHover ? "paused" : "running" }}
+        // Pause animation on hover if pauseOnHover is true
+        whileHover={pauseOnHover ? { animationPlayState: "paused" } : {}}
+        // Pause animation on tap if pauseOnHover is true
+        whileTap={pauseOnHover ? { animationPlayState: "paused" } : {}}
       >
         {items.map((item, idx) => (
           <motion.li
             // Updated card background gradient to Dark background (using new color name)
             // Updated border color to Dark background (using new color name)
-            className="relative w-[280px] max-w-full shrink-0 rounded-xl sm:rounded-2xl border border-b-0 border-color-5/20 bg-gradient-to-br from-color-5/90 to-color-5/70 backdrop-blur-sm sm:w-[350px] md:w-[450px] shadow-2xl overflow-hidden"
+            // Increased card width slightly for all breakpoints
+            className="relative w-[320px] max-w-full shrink-0 rounded-xl sm:rounded-2xl border border-b-0 border-color-5/20 bg-gradient-to-br from-color-5/90 to-color-5/70 backdrop-blur-sm sm:w-[400px] md:w-[500px] shadow-2xl overflow-hidden"
             key={item.title}
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -118,7 +122,7 @@ export const SeriesCard = ({
                 <img
                   src={item.img}
                   alt={item.name}
-                  className="w-full h-[160px] sm:h-[200px] object-cover object-center"
+                  className="w-full h-[170px] sm:h-full object-cover object-center"
                 />
               </div>
             </div>

@@ -36,6 +36,25 @@ import heroBackground from "./hero/hero-background1.webm";
 
 
 import speakerdemo from "./benefits/speakerDEMO.png";
+import speaker1 from "./benefits/speaker1.png";
+
+import series1 from "./benefits/series1.png";
+import series2 from "./benefits/series2.png";
+import series3 from "./benefits/series3.png";
+import series4 from "./benefits/series4.png"; 
+import series5 from "./benefits/series5.png";
+import series6 from "./benefits/series6.png";
+import series7 from "./benefits/series7.png";
+import series8 from "./benefits/series8.png";
+import series9 from "./benefits/series9.png";
+import series10 from "./benefits/series10.png";
+import series11 from "./benefits/series11.png";
+import series12 from "./benefits/series12.png";
+import series13 from "./benefits/series13.png";
+import series14 from "./benefits/series14.png";
+import series15 from "./benefits/series15.png";
+import series16 from "./benefits/series16.png";
+import series17 from "./benefits/series17.png";
 
 import speakerbg from "./benefits/speakerbg.webm";
 
@@ -43,13 +62,7 @@ import linkedin from "./benefits/linkedin.svg";
 
 import partner1 from "./partners/partner1.png";
 import partner2 from "./partners/partner2.png";
-import partner3 from "./partners/partner3.png";
-import partner4 from "./partners/partner4.png";
-import partner5 from "./partners/partner5.png";
-import partner6 from "./partners/partner6.png";
-import partner7 from "./partners/partner7.png";
-import partner8 from "./partners/partner8.png";
-import partner9 from "./partners/partner9.png"; 
+
 
 
 import icon01 from "./theme/icon-1.png";
@@ -91,6 +104,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import { i } from "framer-motion/client";
 
 
 
@@ -113,13 +127,7 @@ export {
 
   partner1,
   partner2,
-  partner3,
-  partner4,
-  partner5,
-  partner6,
-  partner7,
-  partner8,
-  partner9,
+  
 
   icon01,
   icon02,
@@ -142,6 +150,25 @@ export {
 
   
   speakerdemo,
+  speaker1,
+  series1,
+  series2,
+  series3,
+  series4,
+  series5,
+  series6,
+  series7,
+  series8,
+  series9,
+  series10,
+  series11,
+  series12,
+  series13,
+  series14,
+  series15,
+  series16,
+  series17,
+
 
   linkedin,
   
