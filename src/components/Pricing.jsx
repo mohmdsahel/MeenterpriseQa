@@ -19,8 +19,8 @@ const Pricing = () => {
 
         <div className="relative">
 
-        <iframe id="ts-iframe" src="https://www.townscript.com/v2/widget/middle-east-enterprise-ai-analytics-summit-2025-001441/booking" frameborder="0" height="800" width="100%"></iframe>
-        <link rel="stylesheet" href="https://www.townscript.com/static/Bookingflow/css/ts-iframe.style.css" />
+        <iframe id="ts-iframe" src="https://www.townscript.com/v2/widget/11th-middle-east-enterprise-ai-analytics-summit-2025-023103/booking" frameborder="0" height="800" width="100%"></iframe>
+        <link rel="stylesheet" href = "https://www.townscript.com/static/Bookingflow/css/ts-iframe.style.css"/>
 
         </div>
 

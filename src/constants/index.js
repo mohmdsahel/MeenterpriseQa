@@ -497,13 +497,13 @@ export const socials = [
     id: "0",
     title: "linkedin",
     iconUrl: linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/company/letstalkbiz/",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/LetsTalkB2B",
   },
 ];
 
