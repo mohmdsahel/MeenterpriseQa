@@ -401,7 +401,7 @@ export const testimonials = [
   {
     img:  series3,
     name: "AHMED SERAG  ",
-    title: "ounder & Director AI Innovation Lab",
+    title: "Founder & Director AI Innovation Lab",
     role: "Weill Cornell Medicine",
   },
   {
@@ -456,7 +456,7 @@ export const testimonials = [
     img:  series12,
     name: "DR. ALI AL SANOUSI",
     title: "Executive Director, Clinical Information Systems",
-    role: "amad Medical Corporation",
+    role: "Hamad Medical Corporation",
   },
   {
     img: series13,
@@ -479,13 +479,13 @@ export const testimonials = [
   },
   {
     img:  series16,
-    name: "DAAD ILAMDIN",
+    name: "SAAD ILAMDIN",
     title: " Associate Director of Business Intelligence",
     role: "Snoonu",
   },
   {
     img:  series17,
-    name: "OHN MANKARIOS ",
+    name: "JOHN MANKARIOS ",
     title: " Vice President - IT",
     role: "QInvest LLC",
   },
